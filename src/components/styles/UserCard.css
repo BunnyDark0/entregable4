@@ -1,0 +1,106 @@
+
+
+
+
+.userCard {
+  
+  padding: 20px;
+  width: 381px;
+  height: 274px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  line-height: 24px;
+}
+
+.userCard__name {
+  color: #0F0F2D;
+  margin-top: 8px;
+  font-family: 'Helvetica'; 
+  font-size: 24px;
+  
+}
+
+
+.userCard__data{
+  display: grid;
+  
+}
+
+.titleData {
+  font-size: 14.7px;
+  color: #D3D3D3;
+}
+
+.data {
+  font-family: 'Helvetica';
+  font-size: 15.8px;
+  color: #302F2F;
+}
+
+.Date {
+  margin-left: 7px;
+  font-family: 'Helvetica';
+  font-size: 15px;
+  color: #302F2F;
+}
+
+.userCard__birthday {
+  margin-top: 10px;
+  display: grid;
+}
+
+
+
+.userCard_btn1{
+  
+  display: flex;
+  margin-top: 25px;
+  margin-left: 240px;
+
+}
+
+
+.button__trash{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #D93F3F;
+  border-radius: 4px;
+  background: #D85D5D;
+  color: white;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.button__trash:hover{
+  transform: scale(1.20);
+  color:rgb(233, 54, 54);
+  background-color: white;
+}
+
+.button__pencil{
+  margin-left: 14px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: #D3D3D3; 
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.button__pencil:hover {
+  transform: scale(1.20);
+  color:aquamarine;
+  background-color: rgb(39, 35, 35);
+}
+
+.bx-trash{
+  font-size: 24px;
+}
+
+.bx-pencil {
+  font-size: 24px;
+  
+}
+
